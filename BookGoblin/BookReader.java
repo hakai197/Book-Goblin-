@@ -1,11 +1,13 @@
+package BookGoblin;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Books extends DatasetReader {
-    public Books(String filePath) throws IOException {
+public class BookReader extends DatasetReader {
+    public BookReader(String filePath) throws IOException {
         super(filePath);
     }
 
